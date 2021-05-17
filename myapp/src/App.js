@@ -135,7 +135,7 @@ getCartTotal = () => {
   return (
     <div className="App">
             <Navbar count={this.getCartCount()}/>
-            {/* <button onClick={this.addProduct}>Add a product</button> */}
+            {/* <button id="btn" onClick={this.addProduct}>Add a product</button> */}
             <Cart 
             products={products}
             onIncreaseQuantity={this.handleIncreaseQuantity} 
